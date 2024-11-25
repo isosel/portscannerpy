@@ -13,12 +13,12 @@ L'utilisateur peut choisir :
 Les résultats sont affichés et enregistrés dans un fichier texte.
 """
 
-import pyfiglet
+import pyfiglet # ASCII ART
 import argparse
 import socket
 from datetime import datetime
-import threading
-from tqdm import tqdm
+import threading # Très utile pour gagner du temps lors d'un scan de plusieurs ports
+from tqdm import tqdm # Barre de chargement
 
 
 # Affichage d'une bannière avec pyfiglet
